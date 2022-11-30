@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Card</title>
+  </head>
+  <body>
+    <div>
+      <h2>Selecione um profissional para acessar suas informações:</h2>
+
+      <select name="select" id="selector">
+        <option value="" selected disabled>Escolha um profissional</option>
+        <option value="1">João da Silva</option>
+        <option value="2">Marcio Salvador</option>
+        <option value="3">Vitor Pinheiro</option>
+        <option value="4">Alice Moura</option>
+        <option value="5">Amanda Campos</option>
+        <option value="6">Felippe Nascimento</option>
+      </select>
+    </div>
+    <div id="card">
+      <img
+        class="photo"
+        src="./img/perfil/unknow.jpg"
+        alt=""
+      />
+      <div id="card-body">
+        <div class="identity">
+          <h1>Desconhecido</h1>
+          <span id="profissao">Indefinido</span>
+        </div>
+        <p id="bio">
+          Dados sobre o profissional escolhido
+        </p>
+        <div class="socials">
+          <a href=""><img src="img/socials/instagram.svg" alt="" /></a>
+          <a href=""><img src="img/socials/globe.svg" alt="" /></a>
+          <a href=""><img src="img/socials/twitter.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
